@@ -10,8 +10,8 @@ const [comments, setComments]=useState(props.comments)
   return (
     <div>
       {/* map through the comments data and return the Comment component */
-      comments.map(function(comm, index){
-        return <Comment key={index} comment={comm} />
+      comments.map(function(comm){
+        return <Comment comment={comm} />
       })
       
       }

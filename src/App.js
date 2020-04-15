@@ -10,7 +10,6 @@ import "./App.css";
 import SearchBar from "./components/SearchBar/SearchBarContainer.js"
 import PostsPage from "./components/PostsContainer/PostsPage"
 
-
 const App = () => {
 
   return (
